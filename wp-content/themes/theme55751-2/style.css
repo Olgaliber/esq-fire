@@ -1,0 +1,42 @@
+/*--
+	Theme Name: theme55751
+	Theme URI: http://info.template-help.com/help/
+	Description: A theme for Wordpress 4.4.x
+	Author: Template_Help.com
+	Author URI: http://info.template-help.com/help/
+	Template: CherryFramework
+	Version: 3.1.5
+--*/
+
+/* ----------------------------------------
+	Please, You may put custom CSS here
+---------------------------------------- */
+
+.header_block1::before {display:none !important;}
+
+.flexslider .btn.btn-primary{
+display:none!important;
+
+.parallax1 .parallax-content {
+	 padding: 0px !important; 
+}
+.parallax1 .parallax-content {
+	padding: 0px !important;
+}
+.post-1797 h2 {padding:0px !important;}
+
+.icon-facebook::before {
+    content: "\f099" !important;
+}
+
+.post-1797 .btn.btn-primary {
+    display: none !important;
+}
+.collapseomatic {
+	line-height: 29px !important;
+}
+
+@media (min-width: 1120px) {
+.page-id-1797 .alignnone.size-full {
+margin-left: -25px!important;
+}}

@@ -1,0 +1,14 @@
+# Tue Mar  7 17:22:03 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 1.467685  Lock_time: 0.000000  Rows_sent: 0  Rows_examined: 0  Rows_affected: 0
+# Bytes_sent: 11
+use onelinen_esquimalt-firefighters;
+SET timestamp=1488932523
+
+# Tue Mar  7 17:45:20 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 1.834576  Lock_time: 0.000000  Rows_sent: 0  Rows_examined: 0  Rows_affected: 0
+# Bytes_sent: 11
+use onelinen_esquimalt-firefighters;
+SET timestamp=1488933920
+

@@ -1,0 +1,37 @@
+# Sat Jan 28 16:18:52 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 1.707661  Lock_time: 0.000221  Rows_sent: 81  Rows_examined: 173  Rows_affected: 0
+# Bytes_sent: 333923
+use onelinen_esquimalt-firefighters;
+SET timestamp=1485645532;
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_parent = 203  AND wp_posts.post_type = 'revision' AND ((wp_posts.post_status = 'inherit'))  ORDER BY wp_posts.post_date DESC, wp_posts.ID DESC
+
+# Sat Jan 28 16:18:54 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 2.112628  Lock_time: 0.000000  Rows_sent: 0  Rows_examined: 0  Rows_affected: 0
+# Bytes_sent: 137183
+use onelinen_esquimalt-firefighters;
+SET timestamp=1485645534;
+SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (2530,2528,2527,2525,2524,2523,2518,2515,2514,2486,2476,2433,2432,2431,2422,2421,2420,2417,2416,2415,2407,2401,2391,2342,2280,2279,2278,2277,2276,2275,2264,2263,2262,2261,2258,2257,2256,2255,2254,2253,2252,2251,2250,2249,2248,2247,2246,2244,2243,2242,2241,2240,2239,2238,2236,2235,2221,2220,2219,2218,2217,2216,2213,2210,2209,2207,2204,2200,2197,2193,2191) ORDER BY meta_id ASC
+
+# Sat Jan 28 16:35:20 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 1.242172  Lock_time: 0.000000  Rows_sent: 0  Rows_examined: 0  Rows_affected: 0
+# Bytes_sent: 11
+use onelinen_esquimalt-firefighters;
+SET timestamp=1485646520
+
+# Sat Jan 28 16:35:23 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 1.825984  Lock_time: 0.000000  Rows_sent: 0  Rows_examined: 0  Rows_affected: 0
+# Bytes_sent: 11
+use onelinen_esquimalt-firefighters;
+SET timestamp=1485646523
+
+# Sat Jan 28 16:55:17 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 1.359641  Lock_time: 0.000000  Rows_sent: 0  Rows_examined: 0  Rows_affected: 0
+# Bytes_sent: 11
+use onelinen_esquimalt-firefighters;
+SET timestamp=1485647717
+

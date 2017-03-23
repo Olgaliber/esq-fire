@@ -1,0 +1,23 @@
+# Thu Jan 12 22:35:08 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 2.748760  Lock_time: 0.000000  Rows_sent: 0  Rows_examined: 0  Rows_affected: 0
+# Bytes_sent: 11
+use onelinen_esquimalt-firefighters;
+SET timestamp=1484285708
+
+# Thu Jan 12 22:43:05 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 1.277864  Lock_time: 0.000281  Rows_sent: 22  Rows_examined: 50  Rows_affected: 0
+# Bytes_sent: 85302
+use onelinen_esquimalt-firefighters;
+SET timestamp=1484286185;
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_parent = 203  AND wp_posts.post_type = 'revision' AND ((wp_posts.post_status = 'inherit'))  ORDER BY wp_posts.post_date DESC, wp_posts.ID DESC
+
+# Thu Jan 12 22:48:34 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 1.143226  Lock_time: 0.000000  Rows_sent: 0  Rows_examined: 0  Rows_affected: 0
+# Bytes_sent: 45521
+use onelinen_esquimalt-firefighters;
+SET timestamp=1484286514;
+SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+

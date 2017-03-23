@@ -1,0 +1,22 @@
+# Sun Feb 12 15:05:25 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 2.556129  Lock_time: 0.000000  Rows_sent: 0  Rows_examined: 0  Rows_affected: 0
+# Bytes_sent: 11
+use onelinen_esquimalt-firefighters;
+SET timestamp=1486937125
+
+# Sun Feb 12 15:17:37 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 1.878539  Lock_time: 0.000359  Rows_sent: 4  Rows_examined: 4  Rows_affected: 0
+# Bytes_sent: 1062
+use onelinen_esquimalt-firefighters;
+SET timestamp=1486937857;
+SHOW FULL COLUMNS FROM `wp_options`
+
+# Sun Feb 12 15:25:27 2017
+# Schema: onelinen_esquimalt-firefighters  Last_errno: 0  Killed: 0
+# Query_time: 4.282083  Lock_time: 0.000000  Rows_sent: 0  Rows_examined: 0  Rows_affected: 0
+# Bytes_sent: 11
+use onelinen_esquimalt-firefighters;
+SET timestamp=1486938327
+
